@@ -9,7 +9,7 @@ const Navbar = () => {
     { name: "My career", path: "career" },
     { name: "Projects", path: "projects" },
   ];
-  const [enlaceActivo, establecerEnlaceActivo] = useState("");
+  const [enlaceActivo, establecerEnlaceActivo] = useState("home");
 
   const manejarClickEnlace = (path) => {
     establecerEnlaceActivo(path);
