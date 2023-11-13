@@ -53,7 +53,7 @@ const LandingHome = () => {
         </div>
         <div>
           <Link to="projects" smooth={true} duration={500}>
-            <button className="border-2 group text-green-100 px-12 py-3 my-4 flex items-center hover:bg-green-600">
+            <button className="border-2 group text-white px-12 py-3 my-4 flex items-center hover:bg-green-600">
               Works
               <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-2" />

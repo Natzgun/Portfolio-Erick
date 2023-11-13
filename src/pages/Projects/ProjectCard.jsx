@@ -1,27 +1,28 @@
 import { BsGithub } from "react-icons/bs";
-import { BiWorld} from "react-icons/bi";
+import { BiWorld } from "react-icons/bi";
 
-const ProjectCard = ({item,index}) => {
+const ProjectCard = ({ item, index }) => {
   return (
     <div
       key={index}
       className="pb-4 my-4 rounded-lg shadow-lg shadow-[#134232] dark:shadow-gray-900 bg-[#020B17] dark:bg-gray-800 duration-300 hover:-translate-y-1"
     >
       {/* Clickable Area */}
-      <a _href="link" className="cursor-pointer">
+      <a href={item.github} target="_blank" className="cursor-pointer">
         <figure>
           {/* Image */}
           <img
             src={item.image}
             className="rounded-t h-72 w-full object-cover"
           />
-          <figcaption className="p-4">
+          <figcaption className="p-4 h-40">
             <p className="text-lg mb-4 font-bold leading-relaxed text-white dark:text-gray-300">
               <h1 className="text-bold text-xl m-2">{item.name}</h1>
             </p>
             {/* Description */}
-            <small className="leading-5 text-gray-500 dark:text-gray-400">
+            <small className="leading-5 text-gray-500 dark:text-gray-400 h-auto">
               {/* Post Description */}
+              {item.description}
             </small>
           </figcaption>
           <div className="flex justify-evenly">

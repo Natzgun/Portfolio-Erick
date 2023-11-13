@@ -27,9 +27,9 @@ const About = () => {
           <div className="">
             <div className="flex flex-col items-center">
               <div className="text-center p-2">
-                <h2 className="font-bold my-4">Devrick</h2>
+                <h2 className="font-bold my-4 text-xl">Devrick</h2>
                 <p>
-                  Im a Computer Science student in Peru, I currently work as a
+                  Im a Computer Science student in Peru 🇵🇪, I currently work as a
                   software developer. My areas of interest are:
                 </p>
                 <ul className="text-start list-disc px-8 py-4">
