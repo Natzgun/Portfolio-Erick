@@ -19,8 +19,8 @@ const Navbar = () => {
       <div className="bg-slate-950 fixed h-screen w-14">
         <ul className="flex flex-col justify-center text-gray-400 text-center h-full items-center gap-24">
           {navLists.map((nav) => (
-            <li key={nav.path} className={`-rotate-90 ml-4 w-24 hover:text-green-500 ${
-                enlaceActivo === nav.path ? "text-green-500 font-bold border-t-2 border-green-500 rounded-md" : "" }`}>
+            <li key={nav.path} className={`-rotate-90 ml-4 w-24 hover:text-pink-600 ${
+                enlaceActivo === nav.path ? "text-pink-500 font-bold border-t-2 border-pink-500 rounded-md" : "" }`}>
               <Link 
                 to={nav.path}
                 smooth={true}

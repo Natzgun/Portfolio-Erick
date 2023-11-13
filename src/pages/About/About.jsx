@@ -1,12 +1,14 @@
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import Skills from "./Skills";
 
+// Bg color #020B17
+
 const About = () => {
   /*Aqui mi contenido centrado esta al minimo y puede reutilizarse*/
   return (
     <section
       name="about-me"
-      className="bg-gray-800 w-full h-full text-gray-300"
+      className="bg-[#020B17] w-full h-full text-gray-300"
     >
       <div className="max-w-[1250px] mx-auto flex flex-col justify-center items-center">
         <h2 className="text-3xl py-2 my-4 font-bold border-t-4 border-pink-600">ABOUT ME</h2>
@@ -39,7 +41,7 @@ const About = () => {
               </div>
               <section className="w-full flex justify-center gap-4">
                 <a href="https://github.com/Natzgun" target="_blank">
-                  <div className="bg-slate-700 w-auto hover:bg-slate-800 cursor-pointer">
+                  <div className="bg-slate-800 w-auto hover:bg-slate-900 cursor-pointer">
                     <div className="p-4">
                       <BsGithub size={20} className="text-green-500 mb-1" />
                       <h4 className="text-lg">
@@ -52,7 +54,7 @@ const About = () => {
                   </div>
                 </a>
                 <a href="https://www.linkedin.com/in/erick-rmd" target="_blank">
-                  <div className="bg-slate-700 w-auto hover:bg-slate-800 cursor-pointer">
+                  <div className="bg-slate-800 w-auto hover:bg-slate-900 cursor-pointer">
                     <div className="p-4">
                       <BsLinkedin size={20} className="text-green-500 mb-1" />
                       <h4 className="text-lg">
@@ -68,7 +70,7 @@ const About = () => {
             </div>
           </div>
           <div className="sm:col-span-2">
-            <h2 className="font-bold my-4 text-center">
+            <h2 className="font-bold my-4 text-center mt-12">
               <strong className="border-t-4 py-2 border-pink-600 text-3xl font-bold">SKILLS</strong>
             </h2>
             <Skills/>

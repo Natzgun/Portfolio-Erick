@@ -3,9 +3,12 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 import { BsLinkedin, BsGithub, BsInstagram } from "react-icons/bs";
 import { Link } from "react-scroll";
 
+// Color palette #0a192f
+// New color palette #040F1E
+
 const LandingHome = () => {
   return (
-    <section name="home" className="w-full h-screen bg-[#0a192f] ">
+    <section name="home" className="w-full h-screen bg-[#040F1E] ">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-10 md:px-40 lg:px-20 flex flex-col justify-center h-full">
         <div className="">
