@@ -37,6 +37,24 @@ const Career = () => {
                 </div>
               </div>
             </div>
+
+            <div className="flex-col">
+              <div className="mb-6">
+                <div class="w-4 h-4 bg-green-500 rounded-full absolute"></div>
+                <div className="border-l-2 border-green-500 px-8 ml-1.5">
+                  <h3 className="font-extrabold text-lg text-white">
+                    <strong>AWS Academy Graduate</strong>
+                  </h3>
+                  <p className="text-sm mt-1">
+                    Introduction to Cloud Semester 1
+                  </p>
+                  <span className="flex text-green-500 mt-2">
+                    <AiOutlineCalendar size={20} className=" mb-1 mr-2" />
+                    2024
+                  </span>
+                </div>
+              </div>
+            </div>
           </div>
           {/* Grid Work Experience*/}
           <div className="sm:w-[50%]">
@@ -50,7 +68,43 @@ const Career = () => {
                 <div class="w-4 h-4 bg-green-500 rounded-full absolute"></div>
                 <div className="border-l-2 border-green-500 px-8 ml-1.5">
                   <h3 className="font-extrabold text-lg text-white">
-                    <strong>Developer Frontend</strong>
+                    <strong>Backend Developer</strong>
+                  </h3>
+                  <p className="text-sm mt-1">
+                    ProceedHub - Hamuk
+                  </p>
+                  <span className="flex text-green-500 mt-2">
+                    <AiOutlineCalendar size={20} className=" mb-1 mr-2" />
+                    October 2024 - December 2024
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex-col">
+              <div className="mb-6">
+                <div class="w-4 h-4 bg-green-500 rounded-full absolute"></div>
+                <div className="border-l-2 border-green-500 px-8 ml-1.5">
+                  <h3 className="font-extrabold text-lg text-white">
+                    <strong>Frontend Developer</strong>
+                  </h3>
+                  <p className="text-sm mt-1">
+                    Consultora Freelance - B4NVEST
+                  </p>
+                  <span className="flex text-green-500 mt-2">
+                    <AiOutlineCalendar size={20} className=" mb-1 mr-2" />
+                    September 2024 - October 2024
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex-col">
+              <div className="mb-6">
+                <div class="w-4 h-4 bg-green-500 rounded-full absolute"></div>
+                <div className="border-l-2 border-green-500 px-8 ml-1.5">
+                  <h3 className="font-extrabold text-lg text-white">
+                    <strong>Frontend Developer</strong>
                   </h3>
                   <p className="text-sm mt-1">
                     Hackathon NASA Space Apps Challenge
@@ -63,7 +117,7 @@ const Career = () => {
               </div>
             </div>
 
-                        <div className="flex-col">
+            <div className="flex-col">
               <div className="mb-6">
                 <div class="w-4 h-4 bg-green-500 rounded-full absolute"></div>
                 <div className="border-l-2 border-green-500 px-8 ml-1.5">
@@ -71,7 +125,7 @@ const Career = () => {
                     <strong>Fullstack WebApp development</strong>
                   </h3>
                   <p className="text-sm mt-1">
-                    Project TI for Hamuk WebAPP
+                    Project for a course in semester for Hamuk WebAPP
                   </p>
                   <span className="flex text-green-500 mt-2">
                     <AiOutlineCalendar size={20} className=" mb-1 mr-2" />

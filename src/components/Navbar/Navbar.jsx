@@ -14,6 +14,11 @@ const Navbar = () => {
   const manejarClickEnlace = (path) => {
     establecerEnlaceActivo(path);
   };
+
+  const manejarSetActivo = (path) => {
+    establecerEnlaceActivo(path);
+  };
+
   return (
     <nav className="md:block hidden">
       <div className="bg-slate-950 fixed h-screen w-14">
@@ -25,6 +30,9 @@ const Navbar = () => {
                 to={nav.path}
                 smooth={true}
                 duration={500}
+                spy={true}
+                offset={-50}
+                onSetActive={() => manejarSetActivo(nav.path)}
                 onClick={() => manejarClickEnlace(nav.path)}
               >{nav.name}</Link>
               {/* <NavLink to={nav.path}>{nav.name}</NavLink> */}

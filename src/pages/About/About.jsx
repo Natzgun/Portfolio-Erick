@@ -33,14 +33,13 @@ const About = () => {
                   software developer. My areas of interest are:
                 </p>
                 <ul className="text-start list-disc px-8 py-4">
-                  <li>Graphic Computing</li>
-                  <li>Computer Vision</li>
+                  <li>Computer Graphics</li>
+                  <li>Backend Development</li>
                   <li>IA</li>
-                  <li>Software Enginering</li>
                 </ul>
               </div>
               <section className="w-full flex justify-center gap-4">
-                <a href="https://github.com/Natzgun" target="_blank">
+                <a href="https://github.com/Natzgun" target="_blank" rel="noopener noreferrer">
                   <div className="bg-slate-800 w-auto hover:bg-slate-900 cursor-pointer">
                     <div className="p-4">
                       <BsGithub size={20} className="text-green-500 mb-1" />
@@ -53,7 +52,7 @@ const About = () => {
                     </div>
                   </div>
                 </a>
-                <a href="https://www.linkedin.com/in/erick-rmd" target="_blank">
+                <a href="https://www.linkedin.com/in/erick-rmd" target="_blank" rel="noopener noreferrer">
                   <div className="bg-slate-800 w-auto hover:bg-slate-900 cursor-pointer">
                     <div className="p-4">
                       <BsLinkedin size={20} className="text-green-500 mb-1" />

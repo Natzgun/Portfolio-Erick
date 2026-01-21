@@ -13,7 +13,7 @@ const LandingHome = () => {
       <div className="max-w-[1000px] mx-auto px-10 md:px-40 lg:px-20 flex flex-col justify-center h-full">
         <div className="">
           
-        <span className=" text-green-400 py-2">Hi, my name is</span>
+        <span className=" text-pink-400 py-2">Hi, my name is</span>
         <div className="mb-2">
           <h1 className="text-slate-100 text-4xl sm:text-7xl font-bold">
             Erick Malcoaccha
